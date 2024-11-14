@@ -58,8 +58,8 @@ public class KadaiFirstController {
         return "計算結果:" + res;
     }
 
-    @GetMapping("/divid/{val1}/{val2}")
-    public String calcDivid(@PathVariable int val1, @PathVariable int val2) {
+    @GetMapping("/divide/{val1}/{val2}")
+    public String calcDivide(@PathVariable int val1, @PathVariable int val2) {
         int res = 0;
         res = val1 / val2;
         return "計算結果:" + res;
